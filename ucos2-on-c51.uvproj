@@ -322,7 +322,7 @@
             <InterruptVectorAddress>0</InterruptVectorAddress>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>__KEIL_C51</Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
             </VariousControls>
@@ -380,6 +380,11 @@
               <FileName>STARTUP.A51</FileName>
               <FileType>2</FileType>
               <FilePath>.\STARTUP.A51</FilePath>
+            </File>
+            <File>
+              <FileName>keil_c51.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\keil_c51.h</FilePath>
             </File>
           </Files>
         </Group>
