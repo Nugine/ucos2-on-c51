@@ -32,16 +32,16 @@ typedef u8 OS_CPU_SR;
 
 #define OS_TASK_SW() OSCtxSw()
 
-// void OSStartHighRdy(void);
-// void OSIntCtxSw(void);
-// void OSCtxSw(void);
-// void InitTimer0(void);
-// void InitSerial(void);
-// u8 SerialPutCharUnlocked(u8 ch);
-// u8 SerialPrintStrUnlocked(u8 *s);
-// u16 SerialGetChar(void) REENTRANT;
+void OSStartHighRdy(void);
+void OSIntCtxSw(void);
+void OSCtxSw(void);
+void InitTimer0(void);
+void InitSerial(void);
+u8 SerialPutCharUnlocked(u8 ch);
+u8 SerialPrintStrUnlocked(u8 *s);
+u16 SerialGetChar(void) REENTRANT;
 
-// #define SERIAL_BUF_LEN 128
+#define SERIAL_BUF_LEN 128
 
 
 #endif

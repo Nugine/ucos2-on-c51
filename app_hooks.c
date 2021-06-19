@@ -221,34 +221,4 @@ void App_TCBInitHook(OS_TCB *ptcb) REENTRANT { ptcb = ptcb; }
 void App_TimeTickHook(void) REENTRANT {}
 #endif
 
-// void OSTaskSwHook(void) REENTRANT {}
-
-// void OSTaskDelHook(OS_TCB *ptcb) REENTRANT { ptcb = ptcb; }
-
-// void OSTaskIdleHook(void) REENTRANT {}
-
-// void OSTaskReturnHook(OS_TCB *ptcb) REENTRANT { ptcb = ptcb; }
-
-// void OSTaskStatHook(void) REENTRANT {}
-
-// void OSTCBInitHook(OS_TCB *ptcb) REENTRANT { ptcb = ptcb; }
-
-// def_sbit(P1_0, P1 ^ 0);
-// void OSTimeTickHook(void) REENTRANT {
-//     static XDATA u8 time_tick_cnt = 0;
-//     u8 x = ++time_tick_cnt;
-//     if (x % 25 == 0) {
-//         time_tick_cnt = 0;
-//         flip_sbit(P1_0);
-//     }
-// }
-
-// void OSTaskCreateHook(OS_TCB *ptcb) REENTRANT { ptcb = ptcb; }
-
-// void OSInitHookBegin(void) REENTRANT {}
-
-// void OSInitHookEnd(void) REENTRANT {}
-
-// void OSDebugInit(void) REENTRANT {}
-
 #endif
