@@ -18,4 +18,5 @@ SET CPU_XTAL=0x00A8C000
 "D:\Program Files\Keil\C51\BIN\C51.EXE" @".\Objects\os_time.__i"
 "D:\Program Files\Keil\C51\BIN\C51.EXE" @".\Objects\os_tmr.__i"
 "D:\Program Files\Keil\C51\BIN\C51.EXE" @".\Objects\os_core.__i"
+"D:\Program Files\Keil\C51\BIN\C51.EXE" @".\Objects\main.__i"
 "D:\Program Files\Keil\C51\BIN\BL51.EXE" @".\Objects\main.lnp"
